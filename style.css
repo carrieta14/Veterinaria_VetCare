@@ -1,0 +1,58 @@
+
+#hed{
+    height: 300px;
+}
+
+#brand{
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+}
+
+#brand2{
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+}
+
+#img_1 img{
+    height: 364px;
+}
+
+.btn-transparent {
+    background-color: rgba(20, 164, 188, 0.5);
+    border-color: rgba(20, 164, 188, 0.5);
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    #hed{
+    height: 200px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #img_1 img{
+        height: 230px !important;
+    }
+}
+
+@media (max-width: 912px) {
+    #img_1 img{
+        width: 600px;
+        height: 495px ;
+    }
+
+    #hed{
+        height: 50px !important;
+        }
+    #about{
+        height: 50px !important;
+        font-size: small !important;
+        position: absolute !important;
+        padding: 3px !important;
+    }
+    #bread{
+        height: 50px !important;
+        display: grid;
+        align-content: center;
+    }
+}

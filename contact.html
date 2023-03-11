@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - VetCare</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="about"><img src="img/Vet (100 × 57 px).svg" alt="" height="57px"
+                    width="100px">VetCare</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="index">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/contact" id="contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado de la página -->
+    <header id="hed" class="py-5 bg-light" style="background: url(img/banner_3.jpg);
+         background-attachment: fixed; background-position:top; height: 300px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb" id="bread">
+                        <ol class="breadcrumb justify-content-md-end">
+                            <li class="breadcrumb-item"><a href="#" id="index_2">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de contacto -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Información de contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Calle 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: 123456789</li>
+                        <li><i class="fas fa-envelope"></i> Correo electrónico: info@veterinaria.com</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16633.722716192788!2d-96.79752778788377!3d32.775937280446306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e988af59a3a9f%3A0x6e0b6d9a9a6f28b2!2sVeterinarian!5e0!3m2!1sen!2sus!4v1646902815676!5m2!1sen!2sus"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-info text-white">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-3">
+                    <br>
+                    <h4>Horarios de atención</h4>
+                    <ul class="list-unstyled">
+                        <li>Lunes a Viernes: 9:00 - 20:00</li>
+                        <li>Sábados: 9:00 - 14:00</li>
+                        <li>Domingos: cerrado</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <h4>Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Calle 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: 123456789</li>
+                        <li><i class="fas fa-envelope"></i> Correo electrónico: info@veterinaria.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <h4>Síguenos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">© 2023 Veterinaria. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Archivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

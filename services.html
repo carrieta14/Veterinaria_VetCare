@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios - VetCare</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="about"><img src="img/Vet (100 × 57 px).svg" alt="" height="57px"
+                    width="100px">VetCare</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="index">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/contact" id="contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado de la página -->
+    <header id="hed" class="py-5 bg-light" style="background: url(img/banner_2.jpg);
+     background-attachment: fixed; background-size: contain; height: 300px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb" id="bread">
+                        <ol class="breadcrumb justify-content-md-end">
+                            <li class="breadcrumb-item"><a href="#" id="index_2">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Servicios</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección acerca de los servicios -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 mr-6">
+                    <h2 class="mb-4">Acerca de Nuestros <br>Servicios</h2>
+                    <p class="text-justify">
+                        En nuestra veterinaria podrás encontrar una amplia variedad de servicios para el cuidado y
+                        bienestar
+                        de tus mascotas, brindados por un equipo de profesionales altamente capacitados y apasionados
+                        por su trabajo. No dudes en visitarnos y dejarnos cuidar de tus amigos peludos. <br>
+                        Nuestros servicios siempre estan alineados con nuestro objetivo que es proporcionar un cuidado
+                        integral y de calidad a todas las mascotas que se encuentren bajo
+                        nuestra responsabilidad. Buscamos mejorar la calidad de vida de los animales que atendemos y
+                        ayudar a sus dueños a proporcionarles el mejor cuidado posible.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/about_services.jpg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_1.jpg" alt="Card image cap" height="168px">
+                        <div class="card-body">
+                            <h4 class="card-title">Consulta general</h4>
+                            <p class="card-text">Ofrecemos consultas generales para todo tipo de animales.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $800</small>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_1.jpg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    Durante una consulta general en una clínica veterinaria, el
+                                                    profesional llevará a cabo una serie de procedimientos para evaluar
+                                                    el estado de salud de la mascota.
+
+                                                    El veterinario comenzará por revisar el historial médico de la
+                                                    mascota, que puede incluir su historial de vacunación, cualquier
+                                                    problema de salud previo y cualquier medicamento que esté tomando
+                                                    actualmente. A continuación, realizará un examen físico completo de
+                                                    la mascota.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_2.jpeg" alt="Imagen de servicio">
+                        <div class="card-body">
+                            <h5 class="card-title">Esterilización</h5>
+                            <p class="card-text">Realizamos cirugías de esterilización tanto en machos como en hembras.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $1000</small>
+                                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_2.jpeg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    La esterilización es un procedimiento quirúrgico común en la
+                                                    práctica veterinaria que se utiliza para prevenir la reproducción en
+                                                    mascotas. El procedimiento se realiza bajo anestesia general y se
+                                                    lleva a cabo en una clínica o centro veterinario.
+
+                                                    Durante la esterilización, el veterinario realiza una incisión en la
+                                                    piel del animal y extirpa los órganos reproductores, que pueden ser
+                                                    los ovarios y el útero en las hembras (ovariohisterectomía) o los
+                                                    testículos en los machos (orquiectomía).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_3.jpeg" alt="Imagen de servicio">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacunación</h5>
+                            <p class="card-text">Contamos con diferentes paquetes de vacunación para tu mascota.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $500</small>
+                                <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_3.jpeg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    La vacunación es un procedimiento importante que se realiza en las
+                                                    clínicas veterinarias para prevenir enfermedades en las mascotas.
+                                                    Durante la vacunación, se administran pequeñas cantidades de
+                                                    antígenos, o fragmentos de organismos patógenos, que estimulan la
+                                                    producción de anticuerpos en el sistema inmunológico del animal.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_4.jpg" alt="Imagen de servicio" height="168px">
+                        <div class="card-body">
+                            <h5 class="card-title">Dental</h5>
+                            <p class="card-text">Realizamos limpiezas dentales para prevenir problemas bucales en tu
+                                mascota.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop4">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $800</small>
+                                <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_4.jpg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    La limpieza dental es un procedimiento común que se realiza en las
+                                                    clínicas veterinarias para mantener la salud dental de las mascotas.
+                                                    Durante la limpieza dental, se realiza una limpieza profunda de los
+                                                    dientes y las encías del animal para prevenir enfermedades dentales
+                                                    y mantener la salud bucal.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_5.jpg" alt="Imagen de servicio" height="168px">
+                        <div class="card-body">
+                            <h5 class="card-title">Estética y peluquería canina</h5>
+                            <p class="card-text">Trabajamos para mantener el pelaje de los perros limpio, sano y bien
+                                cuidado. </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop5">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $400</small>
+                                <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_5.jpg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    La estética y peluquería canina es un servicio que se ofrece en
+                                                    muchas clínicas veterinarias para mantener la higiene y la
+                                                    apariencia de las mascotas. Durante la estética y peluquería canina,
+                                                    se realiza un cuidado completo de la piel, el pelo y las uñas de la
+                                                    mascota para mantenerla saludable y con una apariencia agradable.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/service_6.jpg" alt="Imagen de servicio" height="168px">
+                        <div class="card-body">
+                            <h5 class="card-title">Hospitalización</h5>
+                            <p class="card-text">Atendemos a aquellos animales que
+                                necesitan tratamiento y cuidados.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop6">Ver detalles</button>
+                                </div>
+                                <small class="text-muted">Desde $1200</small>
+                                <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header badge-info text-light">
+                                                <h4 class="modal-title fs-4" id="staticBackdropLabel">Consulta general
+                                                </h4>
+                                                <button type="button" class="btn-close btn-danger"
+                                                    data-bs-dismiss="modal" aria-label="Close">X</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center m-4">
+                                                    <img src="img/service_6.jpg" alt="" class="img-fluid col-12 rounded">
+                                                </div>
+                                                <p class="text-justify m-4">
+                                                    La hospitalización en una clínica veterinaria es un servicio que se
+                                                    ofrece para proporcionar atención y cuidados intensivos a las
+                                                    mascotas que requieren tratamiento médico y supervisión constante.
+                                                    Durante la hospitalización, los veterinarios y el personal de la
+                                                    clínica trabajan juntos para mantener la salud y el bienestar de la
+                                                    mascota mientras se recupera de una enfermedad o lesión.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-info text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <h4>Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Calle 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: 123456789</li>
+                        <li><i class="fas fa-envelope"></i> Correo electrónico: info@veterinaria.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h4>Síguenos en nuestras redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h4>Horarios de atención</h4>
+                    <ul class="list-unstyled">
+                        <li>Lunes a Viernes: 9:00 am - 6:00 pm</li>
+                        <li>Sábado: 10:00 am - 4:00 pm</li>
+                        <li>Domingo: cerrado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">© 2023 Veterinaria. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+                                ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
